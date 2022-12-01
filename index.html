@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LOREMIPSUM.NET</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="images/logo.jpg">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/mobstyle.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+		<script src="js/script.js"></script>
+	</head>
+	
+	<body>
+	
+		<header class="header">
+			<div class="header__container">
+				<h2 class="header__container__text">loremipsum.<span class="header__container__text-span">net</span></h2>
+				<nav class="header__container__menu">
+					<a class="header__menu-item header__menu-item--active" href="#">бизнес</a>
+					<a class="header__menu-item" href="#">о нас</a>
+					<a class="header__menu-item" href="#">цены</a>
+					<a class="header__menu-item" href="#">оформить заказ</a>
+				</nav>
+				<nav class="header__container__hamburger-menu">
+					<div class="header__container__hamburger-menu__icon" id="hamburger" onclick="hidden_menuUp()">
+						<div class="header__container__hamburger-menu__icon__vector"></div>
+						<div class="header__container__hamburger-menu__icon__vector"></div>
+						<div class="header__container__hamburger-menu__icon__vector"></div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		
+		<div class="hidden-menu" id="hidden-menu" >
+			<button class="hidden-menu__button hidden-menu__button--close" onclick="hidden_menuDn()">&#10006;</button>
+			<nav class="hidden-menu__container">
+				<ul class="hidden-menu__container__list">
+					<li class="hidden-menu__container__list__item hidden-menu__container__list__item--active">бизнес</li>
+					<li class="hidden-menu__container__list__item">о нас</li>
+					<li class="hidden-menu__container__list__item">цены</li>
+					<li class="hidden-menu__container__list__item">оформить заказ</li>
+				</ul>
+			</nav>		
+		</div>
+		
+		<section class="main">
+			<div class="main__container">
+				<div class="main__container__content">
+					<h1 class="main__container__title">
+						<span class="main__container__title-span">Lorem ipsum</span> 
+						dolor sit ametconsectetur 
+						<span class="main__container__title-span">adipiscing</span>
+					</h1>
+					<h3 class="main__container__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus!</h3>
+					<p class="main__container__text"> - Totam rem aperiam eaque ipsa</p>
+					<p class="main__container__text"> - Sit voluptatem accusantium doloremque laudantium</p>
+					<p class="main__container__text"> - Sed ut perspiciatis, unde omnis iste natus error</p>
+					<div class="main__container__button-bar">
+						<button class="main__container__button main__container__button--blue">заказать</button>
+						<button class="main__container__button">подробнее</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="order-form">
+			<div class="order-form__container">
+			
+				<h1 class="order-form__container__title">Оформление  <span class="order-form__container__title-span">Заказа</span></h1>
+				
+				<h4 class="order-form__container__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h4>
+				
+				<div class="order-form__container__content">
+					<div class="order-form__container__scheme">
+						<div class="container__scheme__item" id="circle1">
+							<img src="icons/search.png" class="ontainer_scheme__item_image" alt="search">
+						</div>
+						<div class="container__scheme__dots">
+							<div class="container__scheme__dots__item" id="dot1"></div>
+							<div class="container__scheme__dots__item" id="dot2"></div>
+							<div class="container__scheme__dots__item" id="dot3"></div>
+							<div class="container__scheme__dots__item" id="dot4"></div>
+							<div class="container__scheme__dots__item" id="dot5"></div>
+						</div>
+						<div class="container__scheme__item" id="circle2">
+							<img src="icons/percent.png" class="ontainer_scheme__item_image" alt="percent">
+						</div>
+						<div class="container__scheme__dots">
+							<div class="container__scheme__dots__item" id="dot6"></div>
+							<div class="container__scheme__dots__item" id="dot7"></div>
+							<div class="container__scheme__dots__item" id="dot8"></div>
+							<div class="container__scheme__dots__item" id="dot9"></div>
+							<div class="container__scheme__dots__item" id="dot10"></div>
+						</div>
+						<div class="container__scheme__item" id="circle3">
+							<img src="icons/file.png" class="ontainer_scheme__item_image" alt="file">
+						</div>
+						<div class="container__scheme__dots">
+							<div class="container__scheme__dots__item" id="dot11"></div>
+							<div class="container__scheme__dots__item" id="dot12"></div>
+							<div class="container__scheme__dots__item" id="dot13"></div>
+							<div class="container__scheme__dots__item" id="dot14"></div>
+							<div class="container__scheme__dots__item" id="dot15"></div>
+						</div>
+						<div class="container__scheme__item" id="circle4">
+							<img src="icons/mail.png" class="ontainer_scheme__item_image" alt="mail">
+						</div>
+						<div class="container__scheme__dots">
+							<div class="container__scheme__dots__item" id="dot16"></div>
+							<div class="container__scheme__dots__item" id="dot17"></div>
+							<div class="container__scheme__dots__item" id="dot18"></div>
+							<div class="container__scheme__dots__item" id="dot19"></div>
+							<div class="container__scheme__dots__item" id="dot20"></div>
+						</div>
+						<div class="container__scheme__item" id="circle5">
+							<img src="icons/banknote.png" class="ontainer_scheme__item_image" alt="banknote">
+						</div>
+					</div>
+				
+					<div class="order-form__container__scheme-text">
+						<div class="container__scheme-text__item">
+							<p class="container__scheme-text__item__title">Lorem ipsum dolorsit amet</p>
+						</div>
+						<div class="container__scheme-text__item">
+							<p class="container__scheme-text__item__title">Сonsecteturadipiscing elit</p>
+						</div>
+						<div class="container__scheme-text__item">
+							<p class="container__scheme-text__item__title">Sed do eiusmod tempor</p>
+						</div>
+						<div class="container__scheme-text__item">
+							<p class="container__scheme-text__item__title">Esse cillum doloreeu fugiat</p>
+						</div>
+						<div class="container__scheme-text__item">
+							<p class="container__scheme-text__item__title">Excepteur sint occaecat cupidatat non proident</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="order-form__input-container">
+					<form class="order-form__input-container__form" onsubmit="return false">
+						<div class="input-container__form__top-bar">
+							<div class="input-container__form__top-bar__list">
+								<div class="main__item" id="main_item">
+									<p class="main__item__text">Выберите тип системы</p>
+									<img src="icons/chevrondown.png" class="main__item__img" onclick="selectWindow()" alt="arrow">
+								</div>
+								<div class="select">
+									<p class="select__option" onclick="selectOption(event)">Sed ut perspiciatis</p>
+									<p class="select__option" onclick="selectOption(event)">Nemo enim ipsam</p>
+									<p class="select__option" onclick="selectOption(event)">Et harum quidem</p>
+									<p class="select__option" onclick="selectOption(event)">Temporibus autem</p>
+									<p class="select__option" onclick="selectOption(event)">Itaque earum rerum</p>
+									<p class="select__option" onclick="selectOption(event)">Nam libero tempore</p>
+									<p class="select__option" onclick="selectOption(event)">At vero eos et accusamus</p>
+									<p class="select__option" onclick="selectOption(event)">Ut enim ad minima</p>
+									<p class="select__option" onclick="selectOption(event)">Voluptatibus maiores alias</p>
+									<p class="select__option" onclick="selectOption(event)">Quis autem vel eum</p>
+								</div>
+							</div>
+							<input type="email" class="input-container__form__item input-container__form__item--email" placeholder="Ваш e-mail">
+							<input type="text" class="input-container__form__item input-container__form__item--name" placeholder="Ваше имя">
+						</div>
+						<div class="input-container__form__midle-bar">
+							<div class="input-container__form__midle-bar__range">
+								<div class="input-container__form__range-text">
+									<h4 class="input-container__form__range__subtitle">Sed ut perspiciatis, unde omnis iste natus</h4>
+									<h4 class="input-container__form__range__subtitle" id="percent-text">50%</h4>
+								</div>
+								<input type="range" class="input-container__form__item--range" min="0" max="100" step="1" value="50" onchange="onchangeRange()">
+							</div>
+							<input type="file" name="file" id="file" class="input-container__form__item--file">
+							<label for="file"><img src="icons/attach.png" class="label__img" alt="attach">Прикрепить файл</label>
+						</div>
+						
+						<input type="submit" class="input-container__form__item--submit" onclick="openModal()">
+					</form>
+				</div>
+				
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="footer__container">
+				<p class="footer__container__text">© 2018 «LoremIpsum.net» Все права защищены.</p>
+				<div class="footer__container__stripe"></div>
+				<div class="footer__container__item">
+					<img src="icons/qiwi.png" class="container__item__image" alt="qiwi">
+					<p class="container__item__text">QIWI wallet</p>
+				</div>
+				<div class="footer__container__item">
+					<img src="icons/webmoney.png" class="container__item__image" alt="webmoney">
+					<p class="container__item__text">Web Money</p>
+				</div>
+				<div class="footer__container__item">
+					<img src="icons/yandex.png" class="container__item__image" alt="yandex">
+					<p class="container__item__text">Yandex Money</p>
+				</div>
+				<div class="footer__container__stripe"></div>
+				<a class="footer__container__item--link" href="#">
+					<img src="icons/email.png" class="container__item__image" alt="e-mail">
+					<p class="container__item__text">info@ipsum228.com</p>
+				</a>
+				<a class="footer__container__item--link" href="#">
+					<img src="icons/vk.png" class="container__item__image" alt="vk">
+					<p class="container__item__text">Мы вконтакте</p>
+				</a>
+			</div>
+		</footer>
+		
+		<div class="modal-body">
+			<div class="modal-body__modal-window modal-body__modal-window--true">
+				<h3 class="modal-body__modal-window__text" >Данные успешно загружены</h3>
+				<button class="modal-body__modal-window__button" onclick="closeModal()">OK</button>
+			</div>
+			
+			<div class="modal-body__modal-window modal-body__modal-window--false">
+				<h3 class="modal-body__modal-window__text">Одно или несколько полей заполнены некорректно</h3>
+				<button class="modal-body__modal-window__button" onclick="closeModal()">OK</button>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
