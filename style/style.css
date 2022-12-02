@@ -600,6 +600,7 @@ body {
   color: #FFFFFF;
   cursor: pointer;
   transition: all 0.2s ease-out;
+  -webkit-appearance: none;
 }
 
 .input-container__form__item--submit:hover {
