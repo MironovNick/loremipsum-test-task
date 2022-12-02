@@ -276,11 +276,13 @@
     width: 300px;
     height: 60px;
     margin: auto;
+    z-index: 1000;
   }
 
   .hidden-menu__top-bar__button {
     float: right;
     margin-top: 5px;
+    z-index: 1001;
   }
 
   .hidden-menu__top-bar__button--close {
