@@ -332,6 +332,16 @@
     color: #42A9ED;
   }
 
+  .hidden-menu__container__list__item__link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .hidden-menu__container__list__item__link--active {
+    text-decoration: none;
+    color: #42A9ED;
+  }
+
   .main {
     width: 100%;
     height: 600px;

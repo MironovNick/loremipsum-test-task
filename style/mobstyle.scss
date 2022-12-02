@@ -349,6 +349,16 @@ $lato: "Lato", sans-serif;
 	.hidden-menu__container__list__item--active{
 		color: #42A9ED;
 	}
+
+	.hidden-menu__container__list__item__link{
+		text-decoration: none;
+		color: $black;	
+	  }
+	  
+	  .hidden-menu__container__list__item__link--active{
+		text-decoration: none;
+		color: #42A9ED;
+	  }
 	
 	.main {
 		width: 100%;
