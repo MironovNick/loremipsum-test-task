@@ -5,6 +5,7 @@ $white: #FFFFFF;
 $black: #000000;
 $modal-green: #24E48E;
 $modal-red: #E43A40;
+$lato: "Lato", sans-serif;
 
 @media (min-device-width : 1025px) and (max-device-width : 1440px){
 	
@@ -251,7 +252,7 @@ $modal-red: #E43A40;
 	.header__container__hamburger-menu__icon__vector{
 		width: 30px;
 		height: 3px;
-		background-color: white;
+		background-color: $white;
 		margin: 8px 0 0 5px;
 	}
 	
@@ -289,23 +290,28 @@ $modal-red: #E43A40;
 		transition: all 0.3s ease-out; 
 	}
 
-	.hidden-menu__button{
-		float: right;
-		margin-top: 5px;
-		margin-right: 18px;
+	.hidden-menu__top-bar{
+		width: 300px;
+		height: 60px;
+		margin: auto;
 	}
-
-	.hidden-menu__button--close{
-		width: 46px;
-		height: 46px;
-		cursor: pointer;
-		font-weight: 300;
-		font-size: 35px;
-		color: #34363B;
-		border: none;
-		background: #fff;
-		background: rgba(255, 255, 255, 0.05);
-		margin-top: 5px;
+  
+	.hidden-menu__top-bar__button {
+	  float: right;
+	  margin-top: 5px;
+	}
+  
+	.hidden-menu__top-bar__button--close {
+	  width: 46px;
+	  height: 46px;
+	  cursor: pointer;
+	  font-weight: 300;
+	  font-size: 35px;
+	  color: #34363B;
+	  border: none;
+	  background: #fff;
+	  background: rgba(255, 255, 255, 0.05);
+	  margin-top: 5px;
 	}
 
 	.hidden-menu__container{
@@ -524,7 +530,7 @@ $modal-red: #E43A40;
 		background: rgba(255, 255, 255, 0.85);
 		border: 1px solid $white;
 		border-radius: 3px;
-		font-family: "Lato";
+		font-family: $lato;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 18px;

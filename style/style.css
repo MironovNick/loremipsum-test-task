@@ -43,7 +43,7 @@ body {
 }
 
 .header__menu-item {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -108,7 +108,7 @@ body {
 }
 
 .main__container__title {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -122,7 +122,7 @@ body {
 }
 
 .main__container__subtitle {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -132,7 +132,7 @@ body {
 }
 
 .main__container__text {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -155,7 +155,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #6F6D7B;
   border-radius: 4px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -197,7 +197,7 @@ body {
 }
 
 .order-form__container__title {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
@@ -213,7 +213,7 @@ body {
 }
 
 .order-form__container__subtitle {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -286,7 +286,7 @@ body {
 }
 
 .container__scheme-text__item__title {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -336,7 +336,7 @@ body {
   background: rgba(255, 255, 255, 0.85);
   border: 1px solid #FFFFFF;
   border-radius: 3px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -375,7 +375,7 @@ body {
 }
 
 .main__item__text--active {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -387,7 +387,7 @@ body {
 }
 
 .main__item__text {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -449,7 +449,7 @@ body {
 }
 
 .select__option {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -462,7 +462,7 @@ body {
 }
 
 .select__option:hover {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -527,7 +527,7 @@ body {
 }
 
 .input-container__form__range__subtitle {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -559,7 +559,7 @@ body {
   border-radius: 3px;
   display: block;
   cursor: pointer;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -591,7 +591,7 @@ body {
   background: #3E9CDC;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -626,7 +626,7 @@ body {
 }
 
 .footer__container__text {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -661,7 +661,7 @@ body {
 
 .container__item__text {
   margin: 0 0 0 0;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
